@@ -1,5 +1,5 @@
 import { store } from "@/store";
-import PokemonTable from "./PokemonTable";
+import { PokemonTable } from "./PokemonTable";
 
 
 function SSRPokemonTable() {

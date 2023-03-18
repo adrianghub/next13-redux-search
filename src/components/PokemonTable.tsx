@@ -1,6 +1,6 @@
 import { Pokemon } from "@/types";
 
-const PokemonTable = ({ data }: { data: Pokemon[] }) => {
+export const PokemonTable = ({ data }: { data: Pokemon[] }) => {
   return (
     <table>
       <thead>
@@ -18,5 +18,3 @@ const PokemonTable = ({ data }: { data: Pokemon[] }) => {
     </table>
   );
 };
-
-export default PokemonTable;
